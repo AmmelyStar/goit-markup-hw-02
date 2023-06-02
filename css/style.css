@@ -78,6 +78,10 @@ body{
     text-decoration: none;
 }
 
+.nav-item .link:hover,
+.nav-item .link:focus{
+    color: #404bbf;
+}
 /*adress*/
 .list{
     list-style: none;
