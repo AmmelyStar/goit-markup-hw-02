@@ -131,14 +131,7 @@ body{
 }
 
 .button{
-  
-    padding: 16px 32px;
     color: white;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
     background: #4D5AE5;
   }
   
@@ -146,12 +139,7 @@ body{
 
  /*footer*/
 
- .footer{
-    position: absolute;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px;    
+ .footer{    
     background: #2E2F42;
  }
 
