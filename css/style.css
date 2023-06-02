@@ -9,22 +9,34 @@ body{
 
 /*header*/
 
+/*logo start*/
 .logo-web{
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;   
-    display: flex;
+    line-height: 1.17;  
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
-    
+    color: #4D5AE5;    
 }
 
 .link{
     text-decoration: none;
+}
+
+.logo-studio-nav{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+
 }
 
 .logo-studio{
@@ -33,17 +45,23 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;    
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 
-.list{
+
+/*logo end*/
+
+
+/*nav */
+
+.list {
     list-style: none;
 }
+
 .nav-item{
     font-style: normal;
     font-weight: 500;
@@ -60,11 +78,15 @@ body{
     text-decoration: none;
 }
 
-
-.contacts{
-    list-style-type: none;
+/*adress*/
+.list{
+    list-style: none;
+}
+.address {
+    font-style: normal;
 }
 .email{
+    letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;    
@@ -72,13 +94,23 @@ body{
     text-decoration: none;
 }
 
+.contacts-email .link:hover,
+.contacts-email .link:focus {
+    color: #404bbf;
+}
+
 
 .telefon{
+    letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     color: #434455;
     text-decoration: none;
+}
+.contacts-telefon .link:hover,
+.contacts-telefon .link:focus {
+    color: #404bbf;
 }
 
 /*main section hero*/
