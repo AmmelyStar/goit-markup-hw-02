@@ -212,7 +212,45 @@ body{
     background-color: #FFFFFF;
   }
 
+  /*PORTFOLIO pages*/
+/*section portfolio*/
 
+.btn{
+    background: #F4F4FD;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+/*section portfolio product cards*/
+
+.product-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;        
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+}
+
+.product-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 
  /*footer*/
